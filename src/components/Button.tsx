@@ -20,7 +20,7 @@ const Button: FC<{ label: string }> = ({ label }) => {
   return (
     <button
       type="button"
-      className={`text-xl bg-DarkGray text-White rounded-full py-4 hover:bg-LRB transition-all duration-500 tablet:py-3`}
+      className={`text-xl bg-DarkGray text-White rounded-full py-4 hover:bg-LRB transition-all duration-500 md:py-3`}
     >
       {label}
     </button>
